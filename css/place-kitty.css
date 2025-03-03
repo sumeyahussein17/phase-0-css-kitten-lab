@@ -37,3 +37,25 @@ write-your-selector-here {
   top: 217px;
   left: 223px;
 }
+/* 1. Select the image with the class kitty-1 */
+.kitty-1 {
+  border: 2px solid red;
+}
+
+#kitty-2 {
+  border: 2px solid blue;
+}
+
+#basket img {
+  border: 2px solid green;
+}
+
+/* Sibling selector for paragraph + image */
+#ball + img {
+  border: 2px solid orange;
+}
+
+img[alt="Kitty 5"] {
+  border: 2px solid purple;
+}
+
